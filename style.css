@@ -1,0 +1,172 @@
+body{
+    background-image: url(4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+    display: flex;
+    backdrop-filter: blur(3px);
+    margin-top: 25px;
+    font-family: cursive;
+}
+
+.topbar{
+    margin-left: 92px;
+    width: 1063px;
+    height: 80px;
+    background: radial-gradient(rgba(255,255,255,0.5));
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+}
+
+nav{
+    display: flex;
+    padding: 12px 5%;
+    flex: 1;
+    text-align: right;
+    text-decoration: none;
+}
+
+.logo{
+    margin-top: 5px;
+    color: #fff;
+    font-size: 35px;
+    float: left;
+    cursor: pointer;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: orange;
+    transition: 0.2s ease;
+}
+
+nav ul li a:hover{
+    color: #fff;
+}
+
+.bars{
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+    color: orange;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: -20px;
+}
+
+.active{
+    color: #fff;
+}
+
+.main{
+    display: flex;
+    margin: 20px;
+}
+
+.content{
+    display: flex;
+    width: 930px;
+    height: 500px;
+    background: radial-gradient(rgba(255,255,255,0.6));
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    padding-left: 52px;
+    margin-left: 72px;
+    border-radius: 20px;
+    background-image: url(jesus.jpg);
+}
+
+button{
+    cursor: pointer;
+    text-decoration: none;
+    padding: 6px 16px;
+    font-size: 18px;
+    color: #000;
+    background-color: #fff;
+    font-family: cursive;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    transition: 0.2 ease;
+    margin-top: 100px; 
+}
+
+button:hover{
+    background-color: orange;
+}
+
+.icons{
+    margin-left: 35;
+    width: 80px;
+    height: 500px;
+    background: radial-gradient(rgba(255,255,255,0.5));
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+    
+}
+
+.social-icons ul li{
+    list-style: none;
+    margin-top: 55px;
+    margin-right: -16px;
+}
+
+.social-icons ul li i{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 8px;
+    transition: 0.2 ease;
+    border-radius: 8px;
+}
+
+.social-icons ul li i:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.glass{
+    width: 250px;
+    height: 400px;
+    background-color: #fff;
+    margin-right: 50px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 60px;
+    background-image: url(1.jpg);
+}
+
+.glass h1{
+    color: orange;
+    border-bottom: none;
+    margin-top: 100px; 
+}
+      
+.glass p{
+    text-align: left;
+    color: #fff;
+    padding-left: 10px;
+    font-size: 20px;
+}
+              
+.glass h2{
+    color: orange;
+    border-bottom: orange dotted;
+    font-size: 20px;
+    margin-top: 80px; 
+}             
+
+.glass h3{
+    color: #fff;
+    border-bottom: none;
+    font-size: 20px;
+    margin-top: 180px; 
+}             
