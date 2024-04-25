@@ -1,5 +1,5 @@
 body{
-    background-image: url(4.jpg);
+    background-image: url(7.jpg);
     background-position: center;
     background-size: cover;
     height: 95vh;
@@ -28,7 +28,7 @@ nav{
 
 .logo{
     margin-top: 5px;
-    color: #fff;
+    color: blue;
     font-size: 35px;
     float: left;
     cursor: pointer;
@@ -47,7 +47,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: #fff;
+    color: blue;
 }
 
 .bars{
@@ -61,7 +61,7 @@ nav ul li a:hover{
 }
 
 .active{
-    color: #fff;
+    color: blue;
 }
 
 .main{
@@ -121,7 +121,7 @@ button:hover{
 .social-icons ul li i{
     text-decoration: none;
     font-size: 20px;
-    color: #fff;
+    color: blue;
     cursor: pointer;
     padding: 8px 8px;
     transition: 0.2 ease;
@@ -129,7 +129,7 @@ button:hover{
 }
 
 .social-icons ul li i:hover{
-    background-color: #fff;
+    background-color: orange;
     color: #000;
 }
 

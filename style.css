@@ -1,5 +1,5 @@
 body{
-    background-image: url(4.jpg);
+    background-image: url(7.jpg);
     background-position: center;
     background-size: cover;
     height: 95vh;
@@ -13,7 +13,7 @@ body{
     margin-left: 92px;
     width: 1063px;
     height: 80px;
-    background: radial-gradient(rgba(255,255,255,0.5));
+    background: radial-gradient(rgba(149, 148, 148, 0.5));
     box-shadow: 0 0 10px rgba(0,0,0,0.6);
     border-radius: 20px;
     backdrop-filter: blur(3px);
@@ -29,7 +29,7 @@ nav{
 
 .logo{
     margin-top: 5px;
-    color: #fff;
+    color: blue;
     font-size: 35px;
     float: left;
     cursor: pointer;
@@ -48,7 +48,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: #fff;
+    color: blue;
 }
 
 .bars{
@@ -62,7 +62,7 @@ nav ul li a:hover{
 }
 
 .active{
-    color: #fff;
+    color: blue;
 }
 
 .main{
@@ -79,7 +79,7 @@ nav ul li a:hover{
     padding-left: 52px;
     margin-left: 72px;
     border-radius: 20px;
-    background-image: url(jesus.jpg);
+    background-image: url(7.jpg);
 }
 
 button{
@@ -105,8 +105,8 @@ button:hover{
     margin-left: 35;
     width: 80px;
     height: 500px;
-    background: radial-gradient(rgba(255,255,255,0.5));
-    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    background: radial-gradient(rgba(7, 7, 7, 0.5));
+    box-shadow: 0 0 10px rgba(242, 238, 238, 0.6);
     border-radius: 20px;
     backdrop-filter: blur(3px);
     
@@ -121,7 +121,7 @@ button:hover{
 .social-icons ul li i{
     text-decoration: none;
     font-size: 20px;
-    color: #fff;
+    color: blue;
     cursor: pointer;
     padding: 8px 8px;
     transition: 0.2 ease;
@@ -129,7 +129,7 @@ button:hover{
 }
 
 .social-icons ul li i:hover{
-    background-color: #fff;
+    background-color: orange;
     color: #000;
 }
 
@@ -141,7 +141,7 @@ button:hover{
     border-radius: 20px;
     text-align: center;
     margin-top: 60px;
-    background-image: url(1.jpg);
+    background-image: url(6.jpg);
 }
 
 .glass h1{
